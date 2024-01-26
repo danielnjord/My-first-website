@@ -1,0 +1,149 @@
+@import "https://fonts.googleapis.com/css?family=Press%20Start%202P";
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-family: 'Press Start 2P';
+  font-size: 1rem;
+  line-height: 2;
+  height: 100%;
+  background-color: #221;
+  text-transform: uppercase;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff090;
+}
+
+li {
+  color: #4FAF44;
+}
+
+.arrow i {
+  display: none;
+}
+
+.arrow {
+  position:relative;
+	display: block;
+  color: #F6EB14;
+}
+
+.arrow:hover {
+  cursor: pointer;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.arrow:hover i { 
+  display: block;
+  position: absolute;
+  top: 0.50em; 
+  left: -6em;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('img/farg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat:repeat
+}
+
+
+#skugga {
+  width: 30%;
+  height: 80%;
+  background-color: rgba(5, 9, 2, 0.8); /* Använd RGBA för att ange färg med genomsynlighet */
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 10%;
+}
+
+#profilbild {
+    width: 200px;
+    height: auto;
+    border-radius: 10%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#daniel-njord, #contact {
+  font-family: 'Press Start 2P';
+  font-size: 1rem;
+  line-height: 2;
+  height: 100%;
+}
+
+#personlig-info {
+  font-family: 'Oswald', sans-serif;
+  font-size: large;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: aliceblue;
+}
+
+
+.bilder {
+
+  width: 75%;
+  height: auto;
+  border-radius: 1%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 5px solid #221;
+}
+
+
+@media only screen and (max-width: 999px) {
+
+  #skugga {
+    width: 50%;
+  }
+
+}
+@media only screen and (max-width: 522px) {
+
+  #skugga {
+    width: 80%;
+  }
+
+}
+
+
+footer {
+  width: 100%;
+  height: 80%;
+  background-color: rgba(5, 9, 2, 0.8); /* Använd RGBA för att ange färg med genomsynlighet */
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
